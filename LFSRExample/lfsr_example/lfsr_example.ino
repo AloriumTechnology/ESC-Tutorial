@@ -1,7 +1,7 @@
 #include "XLR8_LFSR.h"
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   XLR8_LFSR.set_seed(0x55);
   XLR8_LFSR.set_freerunning_mode(false);
 }
